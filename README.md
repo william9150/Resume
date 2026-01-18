@@ -2,16 +2,6 @@
 
 **Full-Stack Engineer | .NET Backend Developer**
 
-![head.jpg](./avatar.jpg)
-
-📞 : 0975-178223
-
-📧 : william.9150@gmail.com
-
-🔗 Github: https://github.com/william9150
-
-🔗 LinkedIn: [linkedin.com/in/hsinhui-wu](https://www.linkedin.com/in/hsinhui-wu)
-
 > 專精於 .NET 技術架構，具備「從 0 到 1」主導大型系統數位轉型的成功經驗。擅長深入業務現場分析需求，並將其轉化為高效率的自動化系統。在團隊協作上，具備主導開發流程優化與技術分享的領導力，並擁有跨文化協作經驗與英文溝通能力，有強烈的自主學習特質，能快速適應不同技術體系（如跨語言遷移或新框架導入）。
 
 ### 【技術技能】
