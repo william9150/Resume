@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - William Wu</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #24292e;
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 12mm 15mm;
+        box-sizing: border-box;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      @media screen {
+        html {
+          background: #f0f0f0;
+          padding: 20px 0;
+        }
+      }
+      h1 {
+        font-size: 26px;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 8px;
+        margin: 0 0 8px 0;
+      }
+      h3 {
+        font-size: 16px;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 5px;
+        margin: 12px 0 8px 0;
+      }
+      p {
+        margin: 0 0 6px 0;
+      }
+      a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      blockquote {
+        margin: 8px 0;
+        padding: 6px 12px;
+        border-left: 4px solid #dfe2e5;
+        color: #6a737d;
+        background: #f6f8fa;
+        font-size: 13px;
+      }
+      ul {
+        margin: 4px 0;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 4px;
+      }
+      strong {
+        font-weight: 600;
+      }
+      code {
+        background: #f6f8fa;
+        padding: 2px 5px;
+        border-radius: 3px;
+        font-size: 10px;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid #eaecef;
+        margin: 10px 0;
+      }
+      .header-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+      .header-info > img {
+        height: 130px;
+        width: auto;
+        border-radius: 5px;
+      }
+      .header-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .contact {
+        font-size: 13px;
+        color: #586069;
+      }
+      .exp-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4px;
+      }
+      .exp-title em {
+        color: #6a737d;
+        font-size: 12px;
+      }
+      /* RWD: Tablet & Smaller screens */
+      @media screen and (max-width: 794px) {
+        html {
+          padding: 0;
+        }
+        body {
+          width: 100%;
+          min-height: auto;
+          padding: 16px 20px;
+          box-shadow: none;
+        }
+        h1 {
+          font-size: 22px;
+        }
+        h3 {
+          font-size: 15px;
+        }
+        .header-info {
+          flex-direction: column-reverse;
+          align-items: center;
+          text-align: center;
+        }
+        .header-info > img {
+          height: 100px;
+          margin-bottom: 12px;
+        }
+        .header-text {
+          align-items: center;
+        }
+        .exp-title {
+          flex-direction: column;
+          gap: 2px;
+        }
+        .exp-title em {
+          font-size: 11px;
+        }
+        blockquote {
+          font-size: 12px;
+          padding: 8px 10px;
+        }
+        code {
+          font-size: 9px;
+        }
+      }
+
+      /* RWD: Mobile */
+      @media screen and (max-width: 480px) {
+        body {
+          padding: 12px 16px;
+          font-size: 13px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        .header-info > img {
+          height: 80px;
+        }
+        .contact {
+          font-size: 12px;
+        }
+        ul {
+          padding-left: 16px;
+        }
+      }
+
+      @media print {
+        html {
+          background: none;
+          padding: 0;
+        }
+        body {
+          box-shadow: none;
+          margin: 0;
+          padding: 8mm 15mm;
+          font-size: 13px;
+          line-height: 1.45;
+        }
+        h1 {
+          font-size: 24px;
+          margin: 0 0 4px 0;
+          padding-bottom: 4px;
+        }
+        h3 {
+          font-size: 15px;
+          margin: 8px 0 4px 0;
+          padding-bottom: 3px;
+        }
+        blockquote {
+          margin: 4px 0;
+          padding: 4px 10px;
+          font-size: 12px;
+        }
+        ul {
+          margin: 2px 0;
+        }
+        li {
+          margin-bottom: 1px;
+        }
+        .header-info {
+          margin-bottom: 2px;
+        }
+        .header-info > img {
+          height: 110px;
+        }
+        .exp-title {
+          margin-bottom: 2px;
+        }
+        p {
+          margin: 0 0 2px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-info">
+      <div class="header-text">
+        <h1>Wu Hsin-Hui (William)</h1>
+        <p><strong>Full-Stack Engineer | .NET Backend Developer</strong></p>
+        <p class="contact">
+          📞 0975-178223 ｜ ✉️ william.9150@gmail.com<br />
+          <span style="display: none"
+            >🔗 <a href="https://github.com/william9150">github.com/william9150</a> ｜ 🔗
+            <a href="https://www.linkedin.com/in/hsinhui-wu">linkedin.com/in/hsinhui-wu</a></span
+          >
+        </p>
+      </div>
+      <img src="./avatar.jpg" alt="Headshot" />
+    </div>
+
+    <blockquote>
+      Expert in <strong>.NET architecture</strong> with successful experience leading "0 to 1" digital transformation projects. 
+      Skilled at analyzing on-site business requirements and translating them into high-efficiency automated systems. 
+      <strong>Passionate about AI-augmented development and committed to integrating AI tools into team workflows to significantly enhance productivity and code quality.</strong> 
+      Possesses strong leadership in optimizing development processes and a proactive self-learning trait to adapt quickly to diverse technical ecosystems.
+    </blockquote>
+
+    <h3>【Technical Skills】</h3>
+    <ul>
+      <li><strong>Backend Development:</strong> C# (.NET Framework MVC / .NET 8), ASP.NET Web API, Entity Framework</li>
+      <li><strong>Database & Caching:</strong> Oracle, MS SQL, MySQL, PostgreSQL, Redis</li>
+      <li><strong>Frontend Development:</strong> JavaScript (ES6), jQuery, Bootstrap (RWD), Vue 3</li>
+      <li><strong>DevOps & Tools:</strong> Git, SVN, Docker, IIS Deployment, AI Prompt Engineering</li>
+    </ul>
+
+    <h3>【Professional Experience】</h3>
+
+    <div class="exp-title">
+      <strong>Da An Union Clinical Laboratory | Full-Stack Engineer</strong>
+      <em>March 2022 – Present </em>
+    </div>
+    <ul>
+      <li>
+        <strong>Microbiology Electronic Identification System (Project Lead)</strong>
+        <ul>
+          <li>
+            <strong>Domain Insight & Process Refactoring:</strong> Bridged communication gaps in the highly specialized medical lab field by conducting deep on-site observations, successfully digitizing complex paper-based workflows.
+          </li>
+          <li>
+            <strong>Value Creation & Automation:</strong> Integrated medical instrument data transmission APIs, <strong>reducing manual entry time for medical technologists by 80%</strong> and providing clients with detailed traceability.
+          </li>
+          <li><strong>Risk Management & Quality Control:</strong> Implemented built-in rule validation mechanisms, <strong>reducing manual reporting error rates by over 60%</strong>.</li>
+          <li><strong>Scalability:</strong> Achieved outstanding system performance, leading to successful deployment across multiple franchised partner laboratories.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>AI Integration & System Optimization</strong>
+        <ul>
+          <li><strong>Legacy Modernization:</strong> Leveraged AI tools to analyze and document complex legacy projects, successfully completing system refactoring and feature modernization.</li>
+          <li><strong>MVP Implementation:</strong> Utilized AI to rapidly develop <strong>MVP models and automation utilities</strong>, maximizing daily operational output.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Process Optimization & Team Learning Culture</strong>
+        <ul>
+          <li><strong>Version Control Revolution:</strong> Spearheaded the migration from SVN to GitLab; established Commit conventions and Merge Request (MR) review protocols.</li>
+          <li><strong>Technical Sharing:</strong> Organized internal workshops (Vue 3, Git, AI Tools) to foster a culture of technical exchange within the team.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="exp-title">
+      <strong>Compal Electronics | Software Application Engineer (Platform R&D)</strong>
+      <em>April 2015 – October 2021</em>
+    </div>
+    <ul>
+      <li>Responsible for Intel/AMD laptop platform OS/Driver integration and system stability analysis, with 5+ years of experience in system-level troubleshooting.</li>
+      <li>Served as the technical point of contact for production lines, resolving critical issues in real-time to balance product quality with tight schedules.</li>
+    </ul>
+
+    <h3>【Education & Training】</h3>
+    <ul>
+      <li><strong>Tamkang University | Bachelor of Science in Statistics</strong> (2010 – 2014)</li>
+      <li><strong>iSpan International (formerly III) | Full-Stack Developer Program</strong> (2021 – 2022)</li>
+      <li><strong>Global Experience:</strong> Intensive English study in the Philippines and International Volunteer Camp in Europe (2024), demonstrating strong cross-cultural adaptability and English communication skills.</li>
+    </ul>
+  </body>
+</html>
